@@ -16,9 +16,10 @@ curl https://ellipsis.sh | sh
 export PATH=$PATH:$HOME/.ellipsis/bin
 
 # Install some base ellipsis modules
-ellipsis install ssh://git@github.com/primeroz/dot-vim.git
-ellipsis install ssh://git@github.com/primeroz/dot-tmux.git
-ellipsis install ssh://git@github.com/primeroz/dot-git.git
-ellipsis install ssh://git@github.com/primeroz/dot-task.git
-ellipsis install ssh://git@github.com/primeroz/dot-zsh.git
+ellipsis install ssh://git@github.com/primeroz/dot-vim
+ellipsis install ssh://git@github.com/primeroz/dot-tmux
+ellipsis install ssh://git@github.com/primeroz/dot-git
+ellipsis install ssh://git@github.com/primeroz/dot-task
+ellipsis install ssh://git@github.com/primeroz/dot-zsh
+ellipsis install ssh://git@github.com/primeroz/dot-basearch
 
