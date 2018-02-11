@@ -4,6 +4,8 @@
 # XXX Change to github clone
 curl https://ellipsis.sh | sh
 
+export PATH=$PATH:$HOME/.ellipsis/bin
+
 # Install some base ellipsis modules
 ellipsis install ssh://github.com/primeroz/dot-vim.git
 ellipsis install ssh://github.com/primeroz/dot-tmux.git
