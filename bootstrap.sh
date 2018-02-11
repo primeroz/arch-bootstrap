@@ -5,6 +5,8 @@
 
 sudo pacman -Sy --noconfirm git
 
+mkdir -p $HOME/bin
+
 eval `ssh-agent`
 ssh-add $HOME/.ssh/id_rsa
 
