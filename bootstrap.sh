@@ -22,4 +22,5 @@ ellipsis install ssh://git@github.com/primeroz/dot-git
 ellipsis install ssh://git@github.com/primeroz/dot-task
 ellipsis install ssh://git@github.com/primeroz/dot-zsh
 ellipsis install ssh://git@github.com/primeroz/dot-basearch
+ellipsis install ssh://git@github.com/primeroz/dot-wm
 
