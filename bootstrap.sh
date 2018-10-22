@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
 
 # Install Ellipsis
-# XXX Change to github clone
 
-sudo pacman -Sy --noconfirm git
+sudo pacman -Sy --noconfirm git yay
 
 mkdir -p $HOME/bin
 
@@ -11,6 +10,7 @@ eval `ssh-agent`
 ssh-add $HOME/.ssh/id_rsa
 
 rm -rf $HOME/.ellipsis.bak*
+# XXX Change to github clone
 curl https://ellipsis.sh | sh
 
 export PATH=$PATH:$HOME/.ellipsis/bin
