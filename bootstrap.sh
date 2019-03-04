@@ -19,7 +19,7 @@ fi
 
 export PATH=$PATH:$HOME/.ellipsis/bin
 export ELLIPSIS_USER=primeroz
-export ELLIPSIS_PROTO=git
+export ELLIPSIS_PROTO=ssh
 
 # Install some base ellipsis modules
 ellipsis status basearch && (ellipsis pull basearch) 
